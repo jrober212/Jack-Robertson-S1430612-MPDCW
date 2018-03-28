@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="labstuff.gcu.me.org.coursework.MainActivity">
+
+
+    <TextView
+        android:id="@+id/urlInput"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome to The Traffic Scotland App!"
+        android:textSize="20sp"
+        android:textColor="#D2691E"/>
+
+    <ListView
+        android:id="@+id/lvRss"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="0dp"
+        android:text="Current Incidents" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="0dp"
+        android:text="Planned Roadworks" />
+
+    <ListView
+        android:id="@+id/lvRss2"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:visibility="gone" />
+
+</LinearLayout>
